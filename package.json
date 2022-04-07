@@ -20,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "hardhat:deploy": "npx hardhat run scripts/deployGnosisPunksNFT.js --network rinkeby",
+    "hardhat:verify": "npx hardhat verify --network rinkeby"
   },
   "eslintConfig": {
     "extends": [
@@ -42,8 +44,10 @@
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-etherscan": "^3.0.3",
     "@nomiclabs/hardhat-waffle": "^2.0.3",
     "chai": "^4.3.6",
+    "dotenv": "^16.0.0",
     "ethereum-waffle": "^3.4.4",
     "ethers": "^5.6.1",
     "hardhat": "^2.9.2"
