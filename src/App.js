@@ -3,7 +3,6 @@ import MainMint from './components/MainMint';
 import Navbar from './components/Navbar';
 
 import './App.css';
-import { LinkOverlay } from '@chakra-ui/react';
 
 function App() {
   const [accounts, setAccounts] = useState([]);
