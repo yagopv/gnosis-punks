@@ -1,0 +1,19 @@
+{
+  "name": "@gnosis-punks/contracts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "hardhat:deploy": "npx hardhat run scripts/deployGnosisPunksNFT.js --network rinkeby",
+    "hardhat:verify": "npx hardhat verify --network rinkeby"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-etherscan": "^3.0.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.0",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.1",
+    "hardhat": "^2.9.2"
+  }
+}
