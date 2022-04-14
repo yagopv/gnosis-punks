@@ -18,7 +18,7 @@ contract GnosisPunksNFT is ERC721, Ownable {
   mapping(address => uint256) public walletMints;
 
   // Constructor
-  constructor() payable ERC721('GnosisPunks', 'GP') {
+  constructor() payable ERC721('GnosisPunks', 'GP3') {
     mintPrice = 0.02 ether;
     totalSupply = 0;
     maxSupply = 1000;
