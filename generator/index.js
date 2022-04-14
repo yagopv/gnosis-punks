@@ -125,8 +125,8 @@ const drawImage = async (traitTypes, background, index) => {
     `${dir.outputs}/metadata/${index + 1}.json`,
     JSON.stringify(
       {
-        name: `punk ${index}`,
-        description: 'generative Art NFT',
+        name: `Punk #${index}`,
+        description: 'Gnosis Punks',
         image: `ipfs://NewUriToReplace/${index + 1}.png`,
         attributes: metaDrawableTraits,
       },
