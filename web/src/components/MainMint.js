@@ -82,14 +82,16 @@ const MainMint = ({ accounts, setAccounts }) => {
             >
               Mint Gnosis Punks
             </Text>
-            <Text
-              fontSize="30px"
-              letterSpacing="-5.5%"
-              fontFamily="VT323"
-              textShadow="0 2px 20x #000"
-            >
-              {`${totalSupply} / ${maxSupply}`} already minted
-            </Text>
+            {totalSupply && (
+              <Text
+                fontSize="30px"
+                letterSpacing="-5.5%"
+                fontFamily="VT323"
+                textShadow="0 2px 20x #000"
+              >
+                {`${totalSupply} / ${maxSupply}`} already minted
+              </Text>
+            )}
           </div>
         </Box>
 
