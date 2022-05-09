@@ -25,6 +25,7 @@ contract GnosisPunksNFT is ERC721, Ownable {
     maxPerWallet = 3;
 
     // set withdraw wallet address
+    // withdrawWallet = payable();
   }
 
   function setIsPublicMintEnabled(bool _isPublicMintEnabled) external onlyOwner {

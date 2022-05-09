@@ -82,7 +82,7 @@ const MainMint = ({ accounts, setAccounts }) => {
             >
               Mint Gnosis Punks
             </Text>
-            {totalSupply && (
+            {totalSupply > 0 && (
               <Text
                 fontSize="30px"
                 letterSpacing="-5.5%"

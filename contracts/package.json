@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "compile": "npx hardhat compile",
     "deploy": "npx hardhat run scripts/deployGnosisPunksNFT.js --network rinkeby",
     "verify": "npx hardhat verify --network rinkeby"
   },
